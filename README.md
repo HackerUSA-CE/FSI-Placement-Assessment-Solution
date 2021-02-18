@@ -1,1 +1,1 @@
-# placement-exam
+# Placement Exam

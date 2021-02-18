@@ -1,0 +1,57 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: bisque;
+    color: saddlebrown;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    color: darkred;
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: 1.4em;
+    margin: 2px;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+main {
+    padding: 10px;
+}
+
+section {
+    border: 1px dashed saddlebrown;
+    padding: 10px;
+}
+
+section .menu {
+    display: inline-block;
+    border: 1px solid black;
+    padding: 5px;
+}
+
+th {
+    background-color: burlywood;
+}
+
+table {
+    border: 1px solid saddlebrown;
+    margin: 0 auto;
+}
+
+th, 
+td {
+    padding: 5px;
+    border: 1px solid saddlebrown;
+}
