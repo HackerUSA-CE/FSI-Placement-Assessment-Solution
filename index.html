@@ -10,42 +10,36 @@
     <main>
         <h1>Clever Cookie Bakery</h1>
         <h2>
-            Here at the Clever Cookie, we have several different cookie flavors available. MMMMMM! 
+            We have several cookie flavors available. Yum!<br>Tell us what you'd like!
         </h2>
-        <p>
-            We'd like our customers to be able to go onto our website and tell us how many cookies of each type they'd like of each type.
-        </p>
         <section>
             <div class="menu">
-                <h3>Peanut Butter</h3>
-                <img src="" id="peanut-butter" alt="peanut butter cookie">
+                <h3>Ginger Bread</h3>
+                <img src="assets/images/gingerbread.png" alt="Ginger bread cookie">
                 <div class="button-container">
-                    <button>+1</button>
-                    <button>+5</button>
-                    <button>+12</button>
+                    <button id="minus-gb">-</button>
+                    <button id="add-gb">+</button>
                 </div>
             </div>
             <div class="menu">
                 <h3>Chocolate Chip</h3>
-                <img src="" id="chocolate-chip" alt="chocolate chip cookie">
+                <img src="assets/images/choc-chip.png" alt="chocolate chip cookie">
                 <div class="button-container">
-                    <button>+1</button>
-                    <button>+5</button>
-                    <button>+12</button>
+                    <button id="minus-cc">-</button>
+                    <button id="add-cc">+</button>
                 </div>
             </div>
             <div class="menu">
-                <h3>Snickerdoodle</h3>
-                <img src="" id="snickerdoodle" alt="snickerdoodle cookie">
+                <h3>Sugar Sprinkle</h3>
+                <img src="assets/images/sugar-cookie.png" alt="Sugar Sprinkle Cookie">
                 <div class="button-container">
-                    <button>+1</button>
-                    <button>+5</button>
-                    <button>+12</button>
+                    <button id="minus-sugar">-</button>
+                    <button id="add-sugar">+</button>
                 </div>
             </div>
         </section>
         <hr>
-        <div>
+        <div class="summary">
             <h2>Order Summary</h2>
             <table>
                 <thead>
@@ -60,26 +54,30 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <td>Peanut Butter</td>
-                        <td>0</td>
+                        <td>Ginger Bread</td>
+                        <td id="qty-gb">0</td>
                     </tr>
                     <tr>
                         <td>Chocolate Chip</td>
-                        <td>0</td>
+                        <td id="qty-cc">0</td>
                     </tr>
                     <tr>
-                        <td>Snickerdoodle</td>
-                        <td>0</td>
+                        <td>Sugar Sprinkle</td>
+                        <td id="qty-sugar">0</td>
                     </tr>
                 </tbody>
                 <tfoot>
                     <tr>
                         <th>Total</th>
-                        <th>0</th>
+                        <th id="qty-total">0</th>
                     </tr>
                 </tfoot>
             </table>
         </div>
     </main>
+    <footer>
+        Image credit: <a href="https://pixabay.com/vectors/anthropomorphic-cookie-decoration-1297309/">gingerbread cookie</a>, <a href="https://pixabay.com/vectors/cookie-chocolate-chips-bakery-154366/">chocolate chip cookie</a>, and <a href="https://pixabay.com/vectors/candy-dessert-cookie-jelly-bean-1348480/">sugar sprinkle cookie</a> are all from PixaBay. <a href="https://unsplash.com/photos/QnNqGoCnBg0">Background bakery image</a> from Unsplash.
+    </footer>
+    <script src="assets/script.js"></script>
 </body>
 </html>

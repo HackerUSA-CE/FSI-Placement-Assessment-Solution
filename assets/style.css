@@ -3,18 +3,24 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: bisque;
+    background: url('./images/bakery-background.jpg');
     color: saddlebrown;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 h1 {
     color: darkred;
-    font-size: 3em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3.5em;
 }
 
 h2 {
     font-size: 1.6em;
+    background-color: bisque;
+    display: inline-block;
+    border: 1px solid saddlebrown;
+    border-radius: 5px;
+    padding: 5px;
 }
 
 h3 {
@@ -27,7 +33,7 @@ p {
 }
 
 main {
-    padding: 10px;
+    margin: 10px;
 }
 
 section {
@@ -37,12 +43,18 @@ section {
 
 section .menu {
     display: inline-block;
-    border: 1px solid black;
-    padding: 5px;
+    border: 1px solid saddlebrown;
+    padding: 10px;
+    background-color: burlywood;
+    border-radius: 5px;
 }
 
 th {
     background-color: burlywood;
+}
+
+td {
+    background-color: bisque;
 }
 
 table {
@@ -54,4 +66,18 @@ th,
 td {
     padding: 5px;
     border: 1px solid saddlebrown;
+}
+
+button {
+    color: saddlebrown;
+    background-color: burlywood;
+    font-size: 1.5em;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    padding: 20px;
+    background-color: burlywood;
 }
